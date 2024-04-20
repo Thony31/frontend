@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Cursos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="imagen-container">
+    <img src="img/images.png" alt="">
+    </div>
+    <div class="container">
+        <h1>Selección de Cursos</h1>
+        <div>
+            <label for="cursos">Selecciona un curso:</label>
+            <select id="cursos">
+                <option value="Base de Datos">Base de Datos</option>
+                <option value="Arquitectura de computadoras">Arquitectura de computadoras</option>
+                <option value="Curso integrador: Sistema software">Curso integrador</option>
+                <option value="Desarrollo web integrado">Desarrollo web integrado</option>
+            </select>
+        </div>
+        <div>
+            <label for="horarios">Selecciona un horario:</label>
+            <select id="horarios">
+                <option value="manana">Mañana</option>
+                <option value="tarde">Tarde</option>
+                <option value="noche">Noche</option>
+            </select>
+        </div>
+        <div>
+            <label for="profesores">Selecciona un profesor:</label>
+            <select id="profesores">
+                <option value="Marcelo perez">Marcelo Pérez</option>
+                <option value="Juan Gómez">Juan Gómez</option>
+                <option value="Olva Rodriguez ">Olva Rodríguez</option>
+                <option value="Rafael Oswaldo">Rafael Oswaldo</option>
+            </select>
+        </div>
+        <button onclick="mostrarSeleccion()">Guardar elección</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
